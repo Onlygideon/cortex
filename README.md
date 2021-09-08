@@ -1,6 +1,6 @@
 # cortex
 
-## A fun web game app
+## A fun web guessing game app
   
 As a self taught web developer it was fun building this project. It was built using HTML5, CSS3 and Javascript
   
