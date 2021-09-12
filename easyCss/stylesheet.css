@@ -13,9 +13,6 @@
     right: 0;
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     z-index: 2;
     transition: 1s;
     background: url('../images/img.webp') no-repeat center center/cover;
