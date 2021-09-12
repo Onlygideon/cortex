@@ -13,13 +13,9 @@
     right: 0;
     width: 100%;
     min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     z-index: 2;
     transition: 1s;
-    background-image: url('../images/giphy2.webp');
+    background: url('../images/img.webp') no-repeat center center/cover;
     color: white;
 }
 
@@ -54,10 +50,16 @@
 .text{
     position: relative;
     z-index: 2;
+    top: 150px;
+    padding: 30px;
 }
 
 .main-p{
     margin-bottom: 20px;
+}
+
+.message {
+    font-size: 16px;
 }
 
 .main-input{
@@ -66,9 +68,10 @@
 
 #guess-input{
     padding: 4px 8px;
+    color: black;
 }
 
-#guess-value{
+#guess-btn{
     display: inline-block;
     font-size: 0.7em;
     background: black;
@@ -81,7 +84,7 @@
     transition: 0.2s;
 }
 
-#guess-value:hover{
+#guess-btn:hover{
     letter-spacing: 6px;
     cursor: pointer;
 }
@@ -98,21 +101,30 @@
         font-size: 14px;
         margin-top: 50px;
     }
-    #guess-value{
-        padding: 6px 12px;
+    .message {
+        font-size: 12px;
     }
-    #guess-value:hover{
+    #guess-btn{
+        padding: 4px 10px;
+    }
+    #guess-btn:hover{
         letter-spacing: 3px;
     }
     #guess-input{
         padding: 3px 6px;
     }
 }
- 
+
 @media(max-width: 498px){
     .showcase header h1{
         padding: 0px; 
         padding-top: 20px;
         font-size: 18px;
     }
+
+    #guess-btn{
+        padding: 3px 8px;
+    }
 }
+ 
+ 
