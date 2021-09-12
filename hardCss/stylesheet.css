@@ -17,6 +17,7 @@
     transition: 1s;
     background: url('../images/img.webp') no-repeat center center/cover;
     color: white;
+    overflow: hidden;
 }
 
 .showcase header{
